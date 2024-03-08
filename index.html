@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="box">
+    <form onsubmit="return validateForm()">
+        <h2>Login</h2>
+        <div class="inputbox">
+            <input type="text" name="username" required>
+            <span>Username</span>
+            <i id="username" aria-placeholder="firstname"></i>
+        </div>
+
+        <div class="inputbox">
+            <input type="password" name="password" required>
+            <span>Password</span>
+            <i></i>
+        </div>
+        <input type="submit" value="Login">
+        <div class="links">
+            <a href="#">Forgot password?</a>
+            <a href="./signin.html">Sign up</a>
+        </div>
+    </form>
+   </div> 
+  <script src="./index.js"></script> 
+</body>
+</html>
